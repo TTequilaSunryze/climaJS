@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #4177e2;
+  }
+  
+  .contenedor {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #897ef1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    align-items: center;
+  }
+  
+  h1 {
+    color: #ffffff;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 70%;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #31216f;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #datosClima {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #ffffff;
+  }
+
+  .modoNoche {
+    background-color: rgba(32, 28, 28, 0.982);
+  }
+
+  #botonDia{
+    transition: ease-in-out 0.5s;
+  }
+
+  #botonNoche{
+    transition: ease 0.5s;
+   
+  }
+
+  #botonNoche:hover{
+    transition: ease-in-out 0.5s;
+    transform: scale(1.2);
+  }
+
+  #botonDia:hover{
+    transition: ease-in-out 0.5s;
+    transform: scale(1.2);
+  }
+
+  .hidden{
+    display: none;
+  }
+  
